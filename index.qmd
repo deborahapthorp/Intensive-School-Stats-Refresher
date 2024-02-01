@@ -38,14 +38,20 @@ editor: source
 
 -   Henderson, E. L. (2022, January 25). A guide to preregistration and Registered Reports. [doi.org/10.31222/osf.io/x7aqr](https://doi.org/10.31222/osf.io/x7aqr)
 
+
+:::{.fragment}
+
+![](images/registered_reports.png)
+:::
+
 ## Tools{.smaller}
 
 | Program   | Advantages                                                                                     | Disadvantages                                                                                |
 |-------------------|--------------------------|----------------------------|
-| SPSS      | Powerful, reasonably simple, you already know how to use it                                    | Expensive, too much output, need to run analysis again if you get it wrong, terrible graphs  |
-| jamovi    | FREE, very simple to use, intuitive, makes nice graphs, powerful, lots of help online          | May not have some of the more complex analyses you need, your supervisor may need persuading |
-| JASP      | FREE, also simple to use, fantastic for Bayesian analyses, also does SEM and machine learning! | Not quite as good for non-parametric tests and traditional stats, graphs not as pretty       |
-| R/RStudio | FREE, extremely powerful, makes AMAZING plots, best for replicability                          | Steep learning curve, sometimes not super easy to interpret output, need to Google a lot     |
+| [SPSS](https://www.ibm.com/spss)      | Powerful, reasonably simple, you already know how to use it                                    | Expensive, too much output, need to run analysis again if you get it wrong, terrible graphs  |
+| [jamovi](https://www.jamovi.org/)    | FREE, very simple to use, intuitive, makes nice graphs, powerful, lots of help online          | May not have some of the more complex analyses you need, your supervisor may need persuading |
+| [JASP](https://jasp-stats.org/)      | FREE, also simple to use, fantastic for Bayesian analyses, also does SEM and machine learning! | Not quite as good for non-parametric tests and traditional stats, graphs not as pretty       |
+| [R/RStudio](https://posit.co/downloads/) | FREE, extremely powerful, makes AMAZING plots, best for replicability                          | Steep learning curve, sometimes not super easy to interpret output, need to Google a lot     |
 
 ## Statistics languages
 
