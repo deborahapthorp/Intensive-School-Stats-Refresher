@@ -38,7 +38,7 @@ editor: source
 
 -   Henderson, E. L. (2022, January 25). A guide to preregistration and Registered Reports. [doi.org/10.31222/osf.io/x7aqr](https://doi.org/10.31222/osf.io/x7aqr)
 
-## Tools
+## Tools{.smaller}
 
 | Program   | Advantages                                                                                     | Disadvantages                                                                                |
 |-------------------|--------------------------|----------------------------|
