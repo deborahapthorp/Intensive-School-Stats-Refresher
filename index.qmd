@@ -242,12 +242,20 @@ editor: source
 
 ## What to do when assumptions aren’t met
 
+
+
 -   Non-parametric tests (Mann-Whitney U, Spearman’s Rank Correlations, Friedman ANOVA)
 -   Transform data? (log, square root, inverse - ONLY for interval/ratio variables)
 -   Poisson regression, ordinal logistic regression, negative binomial regression (all available in SPSS under the Generalized Linear Model menu, or in jamovi’s GLM add-on)
 -   Bootstrapping is another possibility (although debatable) - available in SPSS
 
-![](https://imgs.xkcd.com/comics/flawed_data.png){.fragment}
+
+::: {.fragment}
+![](https://imgs.xkcd.com/comics/flawed_data.png)
+
+:::
+
+
 
 ## Surprising/controversial things
 
