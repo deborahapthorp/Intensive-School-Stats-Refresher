@@ -208,13 +208,15 @@ editor: source
 
 ## Correlations - a cautionary tale
 :::{.fragment}
-![](images/cautionary_correlations.png){.absolute top="100" right="150" width="700"}
+![](images/cautionary_correlations.png){.absolute top="100" right="130" width="700"}
 :::
 
 
 - All these correlations are $r(50) = .5$
 - [Code available here](https://github.com/janhove/cannonball)
 - **Visualise your data**! 
+- See also: [the DataSaurus Dozen](https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html)
+![](images/DataSaurus Dozen.gif){.fragment .absolute top="400" left="10" width="650"}
 
 
 ## Reporting results
@@ -243,7 +245,7 @@ editor: source
 
 ## Make nice graphs!
 
-![](images/nicegraphs.png)
+![](images/nicegraphs.png){.fragment .absolute top="50" right="300" width="1100"}
 
 
 ## What to do when assumptions aren’t met
@@ -257,7 +259,7 @@ editor: source
 
 
 ::: {.fragment}
-![](https://imgs.xkcd.com/comics/flawed_data.png)
+![](https://imgs.xkcd.com/comics/flawed_data.png){.absolute bottom="50" left="300" width="700"}
 
 :::
 
