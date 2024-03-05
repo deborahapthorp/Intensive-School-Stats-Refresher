@@ -15,6 +15,13 @@ format:
 editor: source
 ---
 
+## Slides are open source
+
+
+[Link for the HTML version](https://deborahapthorp.github.io/Intensive-School-Stats-Refresher/) of these slides (always up to date)
+
+![](images/IntensiveStatsQRcode.png){fig-align="center"}
+
 #  {background-color="black" background-image="images/dontpanic.png"}
 
 ## Can’t I wait till I get the data?
