@@ -38,19 +38,17 @@ editor: source
 
 -   Henderson, E. L. (2022, January 25). A guide to preregistration and Registered Reports. [doi.org/10.31222/osf.io/x7aqr](https://doi.org/10.31222/osf.io/x7aqr)
 
-
-:::{.fragment}
-
+::: fragment
 ![](images/registered_reports.png)
 :::
 
-## Tools{.smaller}
+## Tools {.smaller}
 
-| Program   | Advantages                                                                                     | Disadvantages                                                                                |
+| Program                                  | Advantages                                                                                     | Disadvantages                                                                                |
 |-------------------|--------------------------|----------------------------|
-| [SPSS](https://www.ibm.com/spss)      | Powerful, reasonably simple, you already know how to use it                                    | Expensive, too much output, need to run analysis again if you get it wrong, terrible graphs  |
-| [jamovi](https://www.jamovi.org/)    | FREE, very simple to use, intuitive, makes nice graphs, powerful, lots of help online          | May not have some of the more complex analyses you need, your supervisor may need persuading |
-| [JASP](https://jasp-stats.org/)      | FREE, also simple to use, fantastic for Bayesian analyses, also does SEM and machine learning! | Not quite as good for non-parametric tests and traditional stats, graphs not as pretty       |
+| [SPSS](https://www.ibm.com/spss)         | Powerful, reasonably simple, you already know how to use it                                    | Expensive, too much output, need to run analysis again if you get it wrong, terrible graphs  |
+| [jamovi](https://www.jamovi.org/)        | FREE, very simple to use, intuitive, makes nice graphs, powerful, lots of help online          | May not have some of the more complex analyses you need, your supervisor may need persuading |
+| [JASP](https://jasp-stats.org/)          | FREE, also simple to use, fantastic for Bayesian analyses, also does SEM and machine learning! | Not quite as good for non-parametric tests and traditional stats, graphs not as pretty       |
 | [R/RStudio](https://posit.co/downloads/) | FREE, extremely powerful, makes AMAZING plots, best for replicability                          | Steep learning curve, sometimes not super easy to interpret output, need to Google a lot     |
 
 ## Statistics languages
@@ -89,7 +87,7 @@ editor: source
 ## Tests
 
 |                                       | Parametric                                                                                                                          | Non-parametric                                                                                                      |
-|------------------|----------------------------|--------------------------|
+|-------------------|----------------------------|--------------------------|
 | **Choosing**                          | [Choosing a parametric test](http://www.biostathandbook.com/testchoice.html)                                                        | [Choosing a non-parametric test](https://changingminds.org/explanations/research/analysis/choose_nonparametric.htm) |
 | **Correlation test**                  | [Pearson](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=u5kZ4erx8QE)                                      | [Spearman](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=u5kZ4erx8QE)                     |
 | **Independent measures, 2 groups**    | [Independent-samples t-test](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=SM-DN9dpPd4)                   | [Mann-Whitney test](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=SM-DN9dpPd4)            |
@@ -207,17 +205,15 @@ editor: source
 :::
 
 ## Correlations - a cautionary tale
-:::{.fragment}
+
+::: fragment
 ![](images/cautionary_correlations.png){.absolute top="100" right="130" width="700"}
 :::
 
-
-- All these correlations are $r(50) = .5$
-- [Code available here](https://github.com/janhove/cannonball)
-- **Visualise your data**! 
-- See also: [the DataSaurus Dozen](https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html)
-![](images/DataSaurus Dozen.gif){.fragment .absolute top="400" left="10" width="650"}
-
+-   All these correlations are $r(50) = .5$
+-   [Code available here](https://github.com/janhove/cannonball)
+-   **Visualise your data**!
+-   See also: [the DataSaurus Dozen](https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html) ![](images/DataSaurus%20Dozen.gif){.fragment .absolute top="400" left="10" width="650"}
 
 ## Reporting results
 
@@ -228,72 +224,57 @@ editor: source
 -   Tables are good for stats (but format them properly!)
 -   [You can make SPSS produce APA style tables!!](http://www.statsmakemecry.com/smmctheblog/how-to-make-spss-produce-all-tables-in-apa-format-automatica.html)
 -   Good graphs can make all the difference in your thesis (but DON’T cut & paste straight from SPSS)
-
 :::
+
 ::: {.column .fragment width="30%"}
-
 ![](images/idontalways.png)
-
-
 :::
-
 :::
-
-
-
-
 
 ## Make nice graphs!
 
 ![](images/nicegraphs.png){.fragment .absolute top="50" right="300" width="1100"}
 
-
 ## What to do when assumptions aren’t met
-
-
 
 -   Non-parametric tests (Mann-Whitney U, Spearman’s Rank Correlations, Friedman ANOVA)
 -   Transform data? (log, square root, inverse - ONLY for interval/ratio variables)
 -   Poisson regression, ordinal logistic regression, negative binomial regression (all available in SPSS under the Generalized Linear Model menu, or in jamovi’s GLM add-on)
 -   Bootstrapping is another possibility (although debatable) - available in SPSS
 
-
-::: {.fragment}
+::: fragment
 ![](https://imgs.xkcd.com/comics/flawed_data.png){.absolute bottom="50" left="300" width="700"}
-
 :::
-
-
 
 ## Surprising/controversial things
 
-::: columns 
+::: columns
 ::: {.column width="70%"}
 -   Dichotomising or grouping variables can reduce statistical power considerably (e.g. low/med/high instead of summed scores)
 -   Using metric models (e.g. ANOVA, regression) for ordinal data (e.g. Likert scales) can seriously distort your results (see [this article](https://www.sciencedirect.com/science/article/pii/S0022103117307746) - blog post digest [here](psychbrief.com/dont-analyse-ordinal-like-interval-ratio/)).
 -   Moderation is mathematically exactly the same thing as interaction in regression
 -   Mediation using correlational designs has been heavily criticised (see [here](www2.psych.ubc.ca/~schaller/528Readings/BullockGreenHa2010.pdf), for instance).
-
 :::
 
 ::: {.column .fragment width="30%"}
-
 ![](images/interactionInRegression.gif)
 :::
-
 :::
-
 
 ## Learning resources
 
 -   Fantastic [FREE book](https://www.learnstatswithjamovi.com/) about learning statistics with jamovi
+
 -   Online [FREE course](https://datalab.cc/tools/jamovi) with video tutorials (datalab)
+
 -   [Rosetta](https://sci-ops.gitlab.io/rosetta-stats/) (covers many analyses in jamovi, R and SPSS)
+
 -   For SPSS - YouTube is great!
+
 -   [Statistics of DOOM](https://www.youtube.com/channel/UCMdihazndR0f9XBoSXWqnYg) YouTube Channel (thanks Bernie!)
-- For R - R Ladies Sydney's course [R You With Me](https://rladiessydney.org/courses/ryouwithme/) is really great for beginners
 
-- If you want to go further with R, [PsycTeachR](https://psyteachr.github.io/) from the University of Glasgow has a fantastic array of resources
+-   For R - R Ladies Sydney's course [R You With Me](https://rladiessydney.org/courses/ryouwithme/) is really great for beginners
 
+-   If you want to go further with R, [PsycTeachR](https://psyteachr.github.io/) from the University of Glasgow has a fantastic array of resources
 
 # Questions? {background-color="black" background-image="images/lighthouse.png"}
