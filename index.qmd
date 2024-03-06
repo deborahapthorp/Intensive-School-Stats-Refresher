@@ -24,6 +24,7 @@ editor: source
 
 #  {background-color="black" background-image="images/dontpanic.png"}
 
+
 ## Can’t I wait till I get the data?
 
 -   No!!! It’s much better if you understand what you’re doing BEFORE you even collect any data
@@ -39,11 +40,13 @@ editor: source
 
 -   You submit a public time-stamped plan BEFORE you analyse your data (preferably before you collect it)
 
--   If you submit this for peer review, it's called a Registered Report
+-   If you submit this for **peer review**, it's called a Registered Report
 
 -   [Useful paper here](https://osf.io/preprints/metaarxiv/x7aqr)
 
 -   Henderson, E. L. (2022, January 25). A guide to preregistration and Registered Reports. [doi.org/10.31222/osf.io/x7aqr](https://doi.org/10.31222/osf.io/x7aqr)
+
+- Here's a simplified diagram: 
 
 ::: fragment
 ![](images/registered_reports.png)
@@ -102,13 +105,15 @@ editor: source
 | **Repeated measures, 2 conditions**   | [Paired-samples t-test](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=lSjfYYiJG6E)                        | [Wilcoxon signed-ranks test](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=lSjfYYiJG6E)   |
 | **Repeated measures, \>2 conditions** | [One-way, repeated-measures ANOVA](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=m5JNwPgiMso)             | [Friedman test](https://www.youtube.com/watch?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn&v=MCdSJ9d6h8Y)                |
 
-## Some examples
+## Some examples of research questions
+### How would you test these?
 
 -   Are people better at recognising upright faces compared to upside-down ones?
     -   Extension: is this different for faces compared to objects?
 -   Do people who recall their dreams more often perform better on a short-term memory task?
     -   Extension: Is this relationship affected by poor sleep?
 -   Did more men than women drop out of your experiment?
+-   Anyone care to contibute? 
 
 ## Expectation vs. reality
 
