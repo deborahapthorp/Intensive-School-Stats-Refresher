@@ -24,6 +24,9 @@ editor: source
 
 #  {background-color="black" background-image="images/dontpanic.png"}
 
+::: notes
+Just note this is posted on the Intensive MyLearn page so you can follow along with the slides if you like, and all the links should work too. I'll also post a PDF in case you like that better. 
+::: 
 
 ## Can’t I wait till I get the data?
 
