@@ -1,5 +1,5 @@
 ---
-title: "Fourth Year Stats Refresher 2024"
+title: "Fourth Year Stats Refresher 2025"
 subtitle: "Practical stats tips for surviving 4th year"
 author: "A/Prof Deborah Apthorp"
 format: 
@@ -142,7 +142,7 @@ Just note this is posted on the Intensive MyLearn page so you can follow along w
 -   Avoid saving multiple versions if possible. Do save a raw version and a minimally processed version (e.g. deleting non-completers), but after that try to use filters rather than deleting participants.
 -   BACK UP!!!
 -   Keep a copy of your syntax for making scales etc. (if using SPSS). This will save you a lot of work. (Can also save a template in jamovi, or save the R code.) I’ll show you how in a minute.
--   Really good preprint [here](https://psyarxiv.com/5tmfe/) about principles of data management
+-   Really good blog post [here](https://www.teaguehenry.com/strings-not-factors/2021/2/21/eight-principles-of-good-data-management) about principles of data management
 
 ## Data carpentry
 
