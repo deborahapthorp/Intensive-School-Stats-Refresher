@@ -62,11 +62,11 @@ Just note this is posted on the Intensive MyLearn page so you can follow along w
 | [SPSS](https://www.ibm.com/spss)         | Powerful, reasonably simple, you already know how to use it                                    | Expensive, too much output, need to run analysis again if you get it wrong, terrible graphs  |
 | [jamovi](https://www.jamovi.org/)        | FREE, very simple to use, intuitive, makes nice graphs, powerful, lots of help online          | May not have some of the more complex analyses you need, your supervisor may need persuading |
 | [JASP](https://jasp-stats.org/)          | FREE, also simple to use, fantastic for Bayesian analyses, also does SEM and machine learning! | Not quite as good for non-parametric tests and traditional stats, graphs not as pretty       |
-| [R/RStudio](https://posit.co/downloads/) | FREE, extremely powerful, makes AMAZING plots, best for replicability                          | Steep learning curve, sometimes not super easy to interpret output, need to Google a lot     |
+| [R/RStudio](https://posit.co/downloads/) | FREE, extremely powerful, makes AMAZING plots, best for reproducibility                          | Steep learning curve, sometimes not super easy to interpret output, need to Google a lot     |
 
 ## Statistics languages
 
-![Image credit - Darren L. Dahly from [Twitter]()](images/SPSS_is_clown_car.png)
+![Image credit - Darren L. Dahly](images/SPSS_is_clown_car.png)
 
 ## What statistic to use?
 
@@ -254,8 +254,8 @@ Just note this is posted on the Intensive MyLearn page so you can follow along w
 
 -   Non-parametric tests (Mann-Whitney U, Spearman’s Rank Correlations, Friedman ANOVA)
 -   Transform data? (log, square root, inverse - ONLY for interval/ratio variables)
--   Poisson regression, ordinal logistic regression, negative binomial regression (all available in SPSS under the Generalized Linear Model menu, or in jamovi’s GLM add-on)
--   Bootstrapping is another possibility (although debatable) - available in SPSS
+-   Poisson regression, ordinal logistic regression, negative binomial regression (all available in SPSS under the Generalized Linear Model menu, or in jamovi’s GAMLj3 add-on)
+-   Bootstrapping is another possibility - available in SPSS and ALSO now in jamovi! 
 
 ::: fragment
 ![](https://imgs.xkcd.com/comics/flawed_data.png){.absolute bottom="50" left="300" width="700"}
