@@ -1,5 +1,5 @@
 ---
-title: "Fourth Year Stats Refresher 2025"
+title: "Fourth Year Stats Refresher 2026"
 subtitle: "Practical stats tips for surviving 4th year"
 author: "A/Prof Deborah Apthorp"
 format: 
@@ -267,7 +267,7 @@ Just note this is posted on the Intensive MyLearn page so you can follow along w
 ::: {.column width="70%"}
 -   Dichotomising or grouping variables can reduce statistical power considerably (e.g. low/med/high instead of summed scores)
 -   Using metric models (e.g. ANOVA, regression) for ordinal data (e.g. Likert scales) can seriously distort your results (see [this article](https://www.sciencedirect.com/science/article/pii/S0022103117307746) - blog post digest [here](psychbrief.com/dont-analyse-ordinal-like-interval-ratio/)).
--   Moderation is mathematically exactly the same thing as interaction in regression
+-   Moderation is mathematically exactly the same thing as interaction in regression (just with some extra bootstrapping if you do it in Process)
 -   Mediation using correlational designs has been heavily criticised (see [here](www2.psych.ubc.ca/~schaller/528Readings/BullockGreenHa2010.pdf), for instance).
 :::
 
